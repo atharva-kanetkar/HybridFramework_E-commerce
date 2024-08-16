@@ -1,0 +1,21 @@
+Steps involved in creating a framework 
+ 
+1) Creating folder structure.
+
+2) Adding Dependencies.
+
+3) Adding one test case - Account registration.
+
+4) Create a base page, the Base page will have one constructor and initialize the driver, and every other page will extend base page.
+
+5) Create locators and action methods for home page
+
+6) Create locators and actions methods for Register page
+
+7) Used RandomStringUtils.randomAlphabetic method from Common-lang repository to generate random email for register page
+
+8) Create base class in test cases and keep the common methods to reuse (setup, teardown, randomnumbers, strings etc)
+
+9) Every Test case now will extend base class (Launching the website, teardown, common methods etc)
+
+10) And every object class will extend base page (Initialization of driver)
