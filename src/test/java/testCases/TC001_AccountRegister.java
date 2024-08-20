@@ -21,6 +21,7 @@ public class TC001_AccountRegister extends BaseClass {
 		
 		hp.ClickMyAccount();
 		hp.ClickRegister();
+		//git check
 		
 		
 		//Fill the Register form
