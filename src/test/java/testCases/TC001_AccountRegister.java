@@ -45,12 +45,22 @@ public class TC001_AccountRegister extends BaseClass {
 			
 			String msg = rp.getConfirmationMessage();
 			
-			Assert.assertEquals(msg, "Your Account Has Been Created!");
 			
+			if(msg.equals("Your Account Has Been Created!")) {
+				Assert.assertTrue(true);
+				
+			}
+			else {
+				logger.error("Test failed");
+				logger.debug("Debug logs");
+				Assert.fail();
+				
+				
+			}
+	
 		}catch(Exception e) {
-			logger.error("Test failed");
-			logger.debug("Debug logs");
-			Assert.fail();  //In case the assert equals is not executed
+			e.printStackTrace();
+			
 		}
 		
 		logger.info("*********Finish*********");

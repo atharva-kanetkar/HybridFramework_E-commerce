@@ -9,7 +9,7 @@
 
      <RollingFile name="File" fileName="${basePath}/Testlog.log" filePattern="{basePath}/Testlog-%d{yyyy-MM-dd}.log">
      	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-     	<SizeBasedTriggeringPolicy size="5000" />
+     	<SizeBasedTriggeringPolicy size="50000" />
      </RollingFile>
 
     <Console name="Console" target="SYSTEM_OUT">
@@ -19,7 +19,7 @@
   </Appenders>
   
   <Loggers>
-    <Root level="info">
+    <Root level="debug">
       <AppenderRef ref="File"/>
     </Root>
   

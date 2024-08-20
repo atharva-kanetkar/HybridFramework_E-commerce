@@ -1,5 +1,27 @@
-23:30:59.200 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
-23:30:59.817 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
-23:31:00.317 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
-23:31:02.126 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
-23:31:02.208 [main] INFO  testCases.TC001_AccountRegister - *********Finish*********
+23:47:11.285 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
+23:47:12.390 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
+23:47:12.840 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
+23:47:13.914 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
+23:47:13.955 [main] ERROR testCases.TC001_AccountRegister - Test failed
+23:47:13.955 [main] INFO  testCases.TC001_AccountRegister - *********Finish*********
+23:48:36.326 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
+23:48:36.940 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
+23:48:37.395 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
+23:48:38.464 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
+23:48:38.506 [main] ERROR testCases.TC001_AccountRegister - Test failed
+23:50:56.289 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
+23:50:57.635 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
+23:50:58.082 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
+23:50:59.173 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
+23:50:59.213 [main] ERROR testCases.TC001_AccountRegister - Test failed
+23:53:05.490 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
+23:53:06.746 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
+23:53:07.200 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
+23:53:08.272 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
+23:53:08.316 [main] ERROR testCases.TC001_AccountRegister - Test failed
+23:53:08.316 [main] DEBUG testCases.TC001_AccountRegister - Debug logs
+23:55:15.738 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
+23:55:17.085 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
+23:55:17.594 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
+23:55:18.690 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
+23:55:18.736 [main] INFO  testCases.TC001_AccountRegister - *********Finish*********
