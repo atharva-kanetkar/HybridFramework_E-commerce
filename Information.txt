@@ -1,0 +1,21 @@
+Log levels 
+All < Trace < Debug < Info < Warn < Error < Fatal < Off
+
+If you set log level as debug, we will get all the logs from debug to fatal
+If you set log level as warn, we will get all logs from warn to fatal
+If you set log level as "All", you get all logs from trace to fatal
+If you set log level as "Off", you will get no logs 
+
+
+Appenders -> Where to generate logs ( Console/File) -> we prefer file 
+Loggers -> what type of logs generate (All < Trace < Debug < Info < Warn < Error < Fatal < Off)
+
+Steps to generate logs 
+1) Add log4j2.xml file under src/test/resources (copy from Internet)
+2) Update BaseClass (Create logger variable )
+3) Add log statements to Account Registration test (logger.info(), logger.debug(), etc...)
+
+
+
+---------------------------------------------------
+

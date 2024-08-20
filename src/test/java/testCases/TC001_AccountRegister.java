@@ -15,31 +15,45 @@ public class TC001_AccountRegister extends BaseClass {
 		
 		//setup and tear down methods available in base class
 		
-		HomePage hp = new HomePage(driver);
-		RegisterPage rp = new RegisterPage(driver);
 		
+		logger.info("****Starting TC001_AccountRegister*****");
 		
-		hp.ClickMyAccount();
-		hp.ClickRegister();
-		//git check
+		try {
+			HomePage hp = new HomePage(driver);
+			RegisterPage rp = new RegisterPage(driver);
+			
+			
+			hp.ClickMyAccount();
+			logger.info("Clicked on MyAccount link");
+			
+			hp.ClickRegister();
+			logger.info("Clicked on Register link");
+			
+			
+			//Fill the Register form
+			rp.EnterFirstName(randomString().toUpperCase());
+			rp.EnterLastName(randomString().toUpperCase());
+			rp.EnterEmail(randomString()+"@gmail.com"); //available in base class
+			rp.EnterTelephone(randomNumber());
+			rp.EnterPassword("abcde");
+			rp.EnterPasswordConfirm("abcde");
+			rp.tickPrivacyPolicyBox();
+			rp.ClickContinueButton();
+			
+			logger.info("Provided details in register form successfully");
+			
+			
+			String msg = rp.getConfirmationMessage();
+			
+			Assert.assertEquals(msg, "Your Account Has Been Created!");
+			
+		}catch(Exception e) {
+			logger.error("Test failed");
+			logger.debug("Debug logs");
+			Assert.fail();  //In case the assert equals is not executed
+		}
 		
-		
-		//Fill the Register form
-		rp.EnterFirstName(randomString().toUpperCase());
-		rp.EnterLastName(randomString().toUpperCase());
-		rp.EnterEmail(randomString()+"@gmail.com"); //available in base class
-		rp.EnterTelephone(randomNumber());
-		rp.EnterPassword("abcde");
-		rp.EnterPasswordConfirm("abcde");
-		rp.tickPrivacyPolicyBox();
-		rp.ClickContinueButton();
-		
-		
-		String msg = rp.getConfirmationMessage();
-		
-		Assert.assertEquals(msg, "Your Account Has Been Created!");
-		
-		
+		logger.info("*********Finish*********");
 	}
 
 }

@@ -19,3 +19,13 @@ Steps involved in creating a framework
 9) Every Test case now will extend base class (Launching the website, teardown, common methods etc)
 
 10) And every object class will extend base page (Initialization of driver)
+
+11) Creating Logging for test cases
+
+12) Added Log4j-core and log4j-api Dependancies
+
+13) Added log4j2.xml under test resources 
+
+14)Under Base class, create logger variable 
+
+15) Under test case, add the necessary logs 
