@@ -29,6 +29,6 @@ Steps involved in creating a framework
 
 13) Added log4j2.xml under test resources 
 
-14)Under Base class, create logger variable 
+14) Under Base class, create logger variable 
 
 15) Under test case, add the necessary logs 
