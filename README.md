@@ -31,4 +31,16 @@ Steps involved in creating a framework
 
 14) Under Base class, create logger variable 
 
-15) Under test case, add the necessary logs 
+15) Under test case, add the necessary logs
+    
+16) Run tests on desired Browser/Cross browser 
+
+17) In master.xml, add parameter with name as "OS" and "Browser", -> this master.xml we will use
+when we need to run the test cases individually on desired browser (not parallely)
+
+18) We will create another xml file for parallel/cross browser testing, where we have created 3 testcases
+with 3 browsers and put parallel = "tests" at suite level
+
+19) Adding config.property file under test resources
+
+20) Load the config file in base class in set up method with help of Properties
