@@ -23,6 +23,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//span[contains(text(),'Account')]")
 	WebElement MyAccount_button;
 	
+	@FindBy(xpath="//ul[contains(@class,'dropdown')]//a[text()='Login']")
+	WebElement LoginPageLink_button;
 	
 	
 	//Action Methods
@@ -34,7 +36,9 @@ public class HomePage extends BasePage {
 		MyAccount_button.click();
 	}
 	
-	
+	public void ClickLogin() {
+		LoginPageLink_button.click();
+	}
 	
 	
 	
