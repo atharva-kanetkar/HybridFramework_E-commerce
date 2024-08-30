@@ -44,3 +44,7 @@ with 3 browsers and put parallel = "tests" at suite level
 19) Adding config.property file under test resources
 
 20) Load the config file in base class in set up method with help of Properties
+
+21) Create Loginpage and MyAccountPage page objects
+
+22) Create TC002_LoginTest
