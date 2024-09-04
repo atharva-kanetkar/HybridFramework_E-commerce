@@ -6,14 +6,14 @@ import org.openqa.selenium.support.FindBy;
 
 public class MyAccountPage extends BasePage {
 
-	MyAccountPage(WebDriver driver) {
+	public MyAccountPage(WebDriver driver) {
 		super(driver);
 		
 	}
 	
 	
 	//Elements 
-	@FindBy(xpath="") // account page heading
+	@FindBy(xpath="//a[contains(text(),'Qa')]") // account page heading
 	WebElement msgHeading;
 	
 	//Actions 

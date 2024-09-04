@@ -21,6 +21,8 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath="//input[@value='Login']")
 	WebElement Loginbutton;
 	
+	
+	
 	//Actions method
 	
 	public void EnterEmailddress(String email) {
@@ -35,7 +37,6 @@ public class LoginPage extends BasePage {
 	public void Login() {
 		Loginbutton.click();
 	}
-	
 	
 	
 	

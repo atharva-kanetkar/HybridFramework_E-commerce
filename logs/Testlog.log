@@ -70,3 +70,12 @@
 02:59:41.280 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
 02:59:42.462 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
 02:59:42.500 [main] INFO  testCases.TC001_AccountRegister - *********Finish*********
+18:33:27.014 [main] INFO  testCases.TC002_LoginTest - *******Login Test Starting*******
+18:33:29.755 [main] INFO  testCases.TC002_LoginTest - Qafox.com
+18:41:36.998 [main] INFO  testCases.TC001_AccountRegister - ****Starting TC001_AccountRegister*****
+18:41:38.209 [main] INFO  testCases.TC001_AccountRegister - Clicked on MyAccount link
+18:41:38.913 [main] INFO  testCases.TC001_AccountRegister - Clicked on Register link
+18:41:40.358 [main] INFO  testCases.TC001_AccountRegister - Provided details in register form successfully
+18:41:40.424 [main] INFO  testCases.TC001_AccountRegister - *********Finish*********
+18:41:42.844 [main] INFO  testCases.TC002_LoginTest - *******Login Test Starting*******
+18:41:45.620 [main] INFO  testCases.TC002_LoginTest - ****************finished TC002logintest*****************
